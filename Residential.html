@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" href="/assets/images/rocketElevators/favicon.ico">
+		<meta charset="utf-8" />
+		<title>Rocket Elevators - Multipurpose + Admin</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/yellow.css" rel="stylesheet" type="text/css" id="color_scheme" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_Rocket Elevators/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- SLIDE TOP -->
+		<div id="slidetop">
+
+			<div class="container">
+				
+				<div class="row">
+
+					<div class="col-md-4">
+						<h6><i class="icon-heart"></i> WHY Rocket Elevators?</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. </p>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="fa-facheck"></i> RECENTLY VISITED</h6>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> This is a very long text, very very very very very very very very very very very very </a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Dolor sit amet,consectetur adipiscing elit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet,consectetur adipiscing elit</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+						<ul class="list-unstyled">
+							<li><b>Address:</b> PO Box 21132, Here Weare St, <br /> Melbourne, Vivas 2355 Australia</li>
+							<li><b>Phone:</b> 1-800-565-2390</li>
+							<li><b>Email:</b> <a href="mailto:support@yourname.com">support@yourname.com</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<a class="slidetop-toggle" href="#"><!-- toggle button --></a>
+
+		</div>
+		<!-- /SLIDE TOP -->
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+			<div id="header" class="navbar-toggleable-md sticky header-md clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Logo -->
+						<a class="logo float-left" href="/RocketElevators.html">
+							<img src="/assets/images/rocketElevators/rocketLogo.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!-- 
+									.nav-onepage
+									Required for onepage navigation links
+									
+									Add .external for an external link!
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li class="active"><!-- HOME -->
+										<a href="/RocketElevators.html">
+											HOME
+										</a>
+									</li>
+									<li><!-- SERVICES -->
+										<a href="/RocketElevators.html#services">
+											SERVICES
+										</a>
+									</li>
+									<li><!-- WORK -->
+										<a href="/RocketElevators.html#portfolio">
+											PORTFOLIO
+										</a>
+									</li>
+									<li><!-- NEWS -->
+										<a href="/RocketElevators.html#news">
+											NEWS
+										</a>
+									</li>
+									<li><!-- CLIENTS -->
+										<a href="/RocketElevators.html#clients">
+											CLIENTS
+										</a>
+									<li><!-- CONTACT -->
+										<a href="/RocketElevators.html#contact">
+											CONTACT
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+			<!-- HOME -->
+			<section id="slider" class="fullheight" style="background:url(/assets/images/rocketElevators/ResidentialElevators2.jpg)">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="display-table">
+					<div class="display-table-cell vertical-align-middle">
+						
+						<div class="container text-center">
+							
+							<h1 class="m-0 fs-50 fw-300 wow fadeInUp" data-wow-delay="0.4s">Residential</h1>
+							<p class="lead font-lato fs-30 wow fadeInUp" data-wow-delay="0.7s"> &amp; Interactive.</p>
+							
+							<div class="mt-30">
+								
+								<a href="#" class="btn btn-3d btn-lg btn-red"> Request a quote</a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- /HOME -->
+
+
+
+
+			<!-- FEATURES -->
+			<section id="features">
+				<div class="container">
+
+					<header class="text-center mb-60">
+						<h2>Our Features</h2>
+						<p class="lead font-lato">Lorem ipsum dolor sit amet adipiscium elit</p>
+						<hr />
+					</header>
+
+					<!-- FEATURED BOXES 3 -->
+					<div class="row">
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-circle-compass"></i>
+								<h4>Pixel Perfect</h4>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-piechart"></i>
+								<h4>Graphs</h4>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-strategy"></i>
+								<h4>Startegy</h4>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-streetsign"></i>
+								<h4>SEO Optimized</h4>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus. </p>
+							</div>
+						</div>
+					</div>
+					<!-- /FEATURED BOXES 3 -->
+
+					<!-- FEATURED BOXES 3 -->
+					<div class="row">
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-trophy"></i>
+								<h4>Winners</h4>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-gears"></i>
+								<h4>Responsive</h4>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-tools"></i>
+								<h4>Costomizable</h4>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-layers"></i>
+								<h4>Easy to Modify</h4>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus. </p>
+							</div>
+						</div>
+					</div>
+					<!-- /FEATURED BOXES 3 -->
+
+				</div>
+			</section>
+			<!-- /FEATURES -->
+
+
+
+
+
+
+
+			<!-- TESTIMONIALS -->
+			<section id="testimonials" class="alternate">
+				<div class="container">
+
+					<header class="text-center mb-60">
+						<h2>TESTIMONIALS</h2>
+						<p class="lead font-lato">Testimonial from client</p>
+						<hr />
+					</header>
+
+					<!-- 
+						Note: remove class="rounded" from the img for squared image!
+					-->
+					<div class="row mb-60">
+						<div class="col-md-4">
+							<div class="testimonial testimonial-bordered p-15">
+								<figure class="float-left">
+									<img class="rounded" src="demo_files/images/people/300x300/2-min.jpg" alt="" />
+								</figure>
+								<div class="testimonial-content">
+									<p>I thoroughly enjoy riding in my RocketElevators elevator as its extremely comfortable… I would unhesitatingly, recommend it to people who are confined to a wheelchair like myself, to me it’s that good and reliable!</p>
+									<cite>
+										Tamara Gordon
+										<span>Company Ltd.</span>
+									</cite>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="testimonial testimonial-bordered p-15">
+								<figure class="float-left">
+									<img class="rounded" src="demo_files/images/people/300x300/1-min.jpg" alt="" />
+								</figure>
+								<div class="testimonial-content">
+									<p>My house was built in 1925 and it was hard to get something to fit in with the décor of my home, but the RocketElevators fit in perfectly. I am thrilled with the design, engineering, and reliability of the vacuum elevator</p>
+									<cite>
+										Stan Barth
+										<span>Company Ltd.</span>
+									</cite>
+								</div>
+							</div>
+						</div>
+
+
+				</div>
+			</section>
+			<!-- /TESTIMONIALS -->
+
+
+
+
+
+
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+
+					<div class="row">
+
+						<!-- col #1 -->
+						<div class="col-md-8">
+
+							<h3 class="letter-spacing-1">WHY US?</h3>
+
+							<!-- Small Description -->
+							<p>
+								We are the designers and manufacturers of the only vacuum elevators in the world. RocketElevatorss an innovative, technology driven company that is revolutionizing how people and goods are transported vertically. Started in 2002 in Miami, Florida, RocketElevatorsis proudly manufacturing three different models of vacuum elevators, ranging from single passenger to a three passenger, wheelchair-accessible model. By the application of simple physics and the utilization of attractive materials, we literally have initiated transportation within a bubble. At RocketElevators, we think outside of the box, having our customers always in mind, and our engineering capabilities second to none. Our unique design is based around our patented technology, and we are proud to manufacture safe and reliable elevators in use worldwide.
+							</p>
+							<h2>1800-555-1234</h2>
+						</div>
+						<!-- /col #1 -->
+
+						<!-- col #2 -->
+						<div class="col-md-4">
+							<h3 class="letter-spacing-1">KEEP IN TOUCH</h3>
+
+							<!-- Newsletter Form -->
+							<p>Subscribe to Our Newsletter to get Important News & Offers</p>
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+
+						</div>
+						<!-- /col #2 -->
+
+					</div>
+
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="float-right m-0 list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul>
+						&copy; All Rights Reserved, Company LTD
+					</div>
+				</div>
+
+			</footer>
+						<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+		
+		
+	</body>
+</html>
