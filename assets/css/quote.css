@@ -1,0 +1,136 @@
+// function calculResidentiel() {
+
+    var appFloor = Math.ceil(("apartments-input" / ("number-of-floors" * 6)))
+
+    var bank = Math.ceil(("number-of-floors"/ 20))
+
+    var residentialElevator = appFloor * bank;
+
+    return residentialElevator
+
+}
+    
+
+    function calculCommercial () {
+
+        var occupancy = Math.ceil(maximumOccupancy.value) * (numberOfFloors.value ) }
+
+        function calculIndustrial () {
+
+            var appFloor = Math.ceil((floor / 10 (+1)))
+        
+            var bank = Math.ceil((Floor / 20))
+        
+            var residentialElevator = Floor * bank; }
+    
+        
+    // resultat ResidentialElevator doit etre afficher dans ton output field
+
+    function calculIndustrial (){
+
+    }
+
+
+
+
+    dropDown2.addEventListener('change', ())=> {
+        console.log(dropDown2.value)
+} else if (dropDown2.value == "excelium") {
+    installation.value =  ((amountOfElevators.value * 15000) / 100)* 10
+    console.log('amount of Elevator : ' + amountOfElevators.value)
+    console.log(installation.value)
+    total.value = (amountOfElevators.value * 15000) + (amountOfElevators.value/ 100* 20);
+    return elevatorPrice.value = 15000
+
+
+
+
+
+
+
+
+
+
+
+    premiumOption.addEventListener('change', ())=> {
+        console.log(premiumOption.value)
+} else if (dropDown2.value == "premium") {
+    installation.value =  ((amountOfElevators.value * 12000) / 100)* 10
+    console.log('amount of Elevator : ' + amountOfElevators.value)
+    console.log(installation.value)
+    total.value = (amountOfElevators.value * 12000) + (amountOfElevators.value/ 100* 20);
+    return elevatorPrice.value = 12000
+    
+    exceliumOption.addEventListener('change', ())=> {
+        console.log(exceliumOption.value)
+} else if (dropDown2.value == "excelium") {
+    installation.value =  ((amountOfElevators.value * 15000) / 100)* 10
+    console.log('amount of Elevator : ' + amountOfElevators.value)
+    console.log(installation.value)
+    total.value = (amountOfElevators.value * 15000) + (amountOfElevators.value/ 100* 20);
+    return elevatorPrice.value = 15000
+
+
+
+
+
+    let standardOption = document.getElementById("standard") 
+let premiumOption = document.getElementById("premium")
+let exceliumOption = document.getElementById("excelium")
+
+const dropDown2 = document.getElementById('select2')
+dropDown2.addEventListener('change', ()=> {}
+    console.log(dropDown2.value)
+    
+if (dropDown2.value == "standard") {}
+        installation.value =  ((amountOfElevators.value * 8000) / 100)* 10
+        console.log('amount of Elevator : ' + amountOfElevators.value)
+        console.log(installation.value)
+        total.value = (amountOfElevators.value * 8000) + (amountOfElevators.value/ 100* 20);
+        return elevatorPrice.value = 8000
+
+    
+        premiumOption.addEventListener('change', ())=> {
+            console.log(premiumOption.value)}  {
+        installation.value =  ((amountOfElevators.value * 12000) / 100)* 10
+        console.log('amount of Elevator : ' + amountOfElevators.value)
+        console.log(installation.value)
+        total.value = (amountOfElevators.value * 12000) + (amountOfElevators.value/ 100* 20);
+        return elevatorPrice.value = 12000
+        
+        exceliumOption.addEventListener('change', ())=> {
+            console.log(exceliumOption.value)} {
+        installation.value =  ((amountOfElevators.value * 15000) / 100)* 10
+        console.log('amount of Elevator : ' + amountOfElevators.value)
+        console.log(installation.value)
+        total.value = (amountOfElevators.value * 15000) + (amountOfElevators.value/ 100* 20);
+        return elevatorPrice.value = 15000
+
+
+residential
+
+// if (floor.value) <20){
+    elevators.value = Math.ceil}(((appartement.value/floor.value)/6))
+}
+esle if(floor.value > 20){
+    elevators.value = Math.ceil}(((appartement.value/floor.value)/6)) * Math.ceil(floor.value/20))
+
+}else {elevators.value = Math.ceil}(((appartement.value/floor.value)/6)) * 2
+    
+    
+commercial
+
+
+
+function calculResidential() {
+    
+    let numberOfFloors = Math.ceil(appartement.value / floors)
+
+    var  floor = Math.ceil((floor.value / 10 (+1)))
+    var bank = Math.ceil((floor.value / 20))
+
+    var residentialElevator = floor * bank;
+
+    return residentialElevator
+
+}
